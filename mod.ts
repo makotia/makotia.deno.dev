@@ -7,6 +7,17 @@ const page = (title: string, body: string): Response => new Response(`
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="での" />
+    <meta property="og:site_name" content="での" />
+    <meta name="twitter:title" content="での" />
+    <meta name="twitter:description" content="での" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@0x307E" />
+    <meta name="twitter:url" content="https://makotia.deno.dev/" />
+    <meta property="og:url" content="https://makotia.deno.dev/" />
+    <meta property="og:description" content="での" />
+    <meta property="og:image" content="https://dummyimage.com/1920x1080/333/fff.png&text=%E3%81%A7%E3%81%AE" />
+    <meta name="twitter:image" content="https://dummyimage.com/1920x1080/333/fff.png&text=%E3%81%A7%E3%81%AE" />
     <title>${title}</title>
     <style>
       body {
