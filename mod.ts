@@ -40,6 +40,6 @@ const page = (title: string, body: string): Response => new Response(`
 `, {"headers": {"content-type": "text/html; charset=utf-8"}});
 
 serve({
-  "/": () => page("で？", "の"),
-  404: () => page("君は何をしたいんだ", "ないよ"),
+  "/": () => page("での", "での"),
+  404: () => page("君は何をしたいんだ", "ここにはないよ"),
 });
